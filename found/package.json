@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint"
+    "lint": "next lint",
+    "json_db": "json-server --watch data/items.json --port 3001"
   },
   "dependencies": {
     "@material-tailwind/react": "^2.0.4",
